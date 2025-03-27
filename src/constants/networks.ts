@@ -1,8 +1,12 @@
 import type { AddEthereumChainParameter } from "@web3-react/types";
 
 const infuraKey = process.env.REACT_APP_INFURA_KEY;
-const alchemyKey = process.env.REACT_APP_INFURA_KEY;
+const alchemyKey = "1ErT-b6cMMBC6D2qmzM8EuNeoaQZl8XZ";
 const pocketNetwork = process.env.REACT_APP_POCKET_KEY;
+
+console.log("infuraKey", infuraKey);
+console.log("alchemyKey", alchemyKey);
+console.log("pocketNetwork", pocketNetwork);
 
 const ETH: AddEthereumChainParameter["nativeCurrency"] = {
   name: "Ether",
